@@ -1,0 +1,19 @@
+title: Weather Prediction Unit
+description: >-
+  Students will learn how to collect data to provide evidence for how the
+  motions and complete interaction of air masses result in weather conditions
+  changes.  
+template:
+  repo: weather-prediction-unit-template
+  name: weather-prediction-unit
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
